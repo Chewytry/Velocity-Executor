@@ -1,0 +1,22 @@
+# Base image with Python and Ubuntu
+FROM python:3.9-slim
+
+# Set environment variables
+ENV PYTHONDONTWRITEBYTECODE 1
+ENV PYTHONUNBUFFERED 1
+
+# Set work directory
+WORKDIR /app
+
+# Install dependencies
+COPY requirements.txt /app/
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy project
+COPY . /app/
+
+# Expose port for the Flask app
+EXPOSE 5001
+
+# Command to run the Flask app using gunicorn for production
+CMD ["gunicorn", "--workers=2", "--threads=4", "--worker-class=gthread", "--log-level=info", "--bind", "0.0.0.0:5001", "service:app"]

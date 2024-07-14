@@ -1,0 +1,7 @@
+h2ogpte
+h2o_wave
+python-dotenv
+python-pptx
+gunicorn
+Flask
+googlesearch-python

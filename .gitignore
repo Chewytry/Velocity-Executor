@@ -1,0 +1,6 @@
+__pycache__/app.cpython-311.pyc
+__pycache__/frontend.cpython-311.pyc
+__pycache__
+.env
+.DS_Store
+themed_presentation.pptx

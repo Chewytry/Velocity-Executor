@@ -1,0 +1,21 @@
+version: '3.8'
+services:
+  flaskapp:
+    build:
+      context: .
+      dockerfile: Docker/dockerfile-flask
+    ports:
+      - "5001:5001"
+    volumes:
+      - .:/app
+    environment:
+      - FLASK_ENV=development
+
+  waveapp:
+    build:
+      context: .
+      dockerfile: Docker/dockerfile-wave
+    ports:
+      - "10101:10101"
+    volumes:
+      - .:/app
